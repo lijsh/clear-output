@@ -1,7 +1,7 @@
 
 # clear-output
 
-[![NPM version](https://img.shields.io/npm/v/clear-output.svg?style=flat)](https://npmjs.com/package/clear-output) [![NPM downloads](https://img.shields.io/npm/dm/clear-output.svg?style=flat)](https://npmjs.com/package/clear-output) [![CircleCI](https://circleci.com/gh/lijsh/clear-output/tree/master.svg?style=shield)](https://circleci.com/gh/lijsh/clear-output/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/lijsh/donate)
+[![NPM version](https://img.shields.io/npm/v/clear-output.svg?style=flat)](https://npmjs.com/package/clear-output) [![NPM downloads](https://img.shields.io/npm/dm/clear-output.svg?style=flat)](https://npmjs.com/package/clear-output)
 
 > A cli utils that can clear your terminal output.
 
@@ -14,7 +14,7 @@ yarn add clear-output
 ## Usage
 
 ```js
-const clear = require('../')
+const clear = require('clear-output')
 
 const str = 'you will see this line\nyou won\'t see \nthese lines'
 
