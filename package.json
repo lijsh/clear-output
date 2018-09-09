@@ -1,0 +1,30 @@
+{
+  "name": "clear-output",
+  "version": "0.0.0",
+  "description": "clear terminal output like a pro",
+  "repository": {
+    "url": "lijsh/clear-output",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm run lint && echo 'no tests!'",
+    "lint": "xo"
+  },
+  "author": "lijsh <sysulijs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "strip-ansi": "^4.0.0",
+    "wcwidth": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem"
+  }
+}
