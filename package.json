@@ -1,6 +1,6 @@
 {
   "name": "clear-output",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "clear terminal output like a pro",
   "repository": {
     "url": "lijsh/clear-output",

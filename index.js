@@ -1,3 +1,4 @@
+const readline = require('readline')
 const stripAnsi = require('strip-ansi')
 const wcwidth = require('wcwidth')
 
@@ -9,9 +10,9 @@ module.exports = function (output) {
   }, 0)
   for (let index = 0; index < lineCount; index++) {
     if (index > 0) {
-      stream.moveCursor(0, -1)
+      readline.moveCursor(stream, 0, -1)
     }
-    stream.clearLine()
-    stream.cursorTo(0)
+    readline.clearLine(stream)
+    readline.cursorTo(stream, 0)
   }
 }
