@@ -1,6 +1,6 @@
 const clear = require('../')
 
-const str = 'ha\nha\nha'
+const str = 'you will see this line\nyou won\'t see \nthese lines'
 
 console.log(str)
 

@@ -3,6 +3,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/clear-output.svg?style=flat)](https://npmjs.com/package/clear-output) [![NPM downloads](https://img.shields.io/npm/dm/clear-output.svg?style=flat)](https://npmjs.com/package/clear-output) [![CircleCI](https://circleci.com/gh/lijsh/clear-output/tree/master.svg?style=shield)](https://circleci.com/gh/lijsh/clear-output/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/lijsh/donate)
 
+> A cli utils that can clear your terminal output.
+
 ## Install
 
 ```bash
@@ -12,11 +14,18 @@ yarn add clear-output
 ## Usage
 
 ```js
-const clearOutput = require('clear-output')
+const clear = require('../')
 
-clearOutput()
-//=> foo
+const str = 'you will see this line\nyou won\'t see \nthese lines'
+
+console.log(str)
+
+clear(str)
 ```
+
+And you will see this:
+
+<img src="sample-preview.png" width="480">
 
 ## Contributing
 
